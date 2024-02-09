@@ -1,0 +1,28 @@
+.tituloDePagina {
+    text-align: center;
+    font-size: 70px;
+    margin: 50px;
+    text-decoration-line: underline;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.card {
+    margin: 20px;
+    padding: 20px;
+    @include anclas;
+    background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+    cursor: pointer;
+  }
+
+.card:hover {
+    transform: rotate(360deg) scale(1.1);
+    
+    
+  }  
+  
+  .card-img-top {
+    height: 250px;
+  }

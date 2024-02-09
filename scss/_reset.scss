@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/TazaDeCafe.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}

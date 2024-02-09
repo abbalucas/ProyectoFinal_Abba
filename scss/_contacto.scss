@@ -1,0 +1,45 @@
+@mixin anclas {
+  border: 5px black solid;
+}
+
+.formularioContacto {
+    margin-top: 20px;
+    margin: 10px;
+    background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+    @include anclas
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: $color-principal;
+  }
+  
+  input [type=text], textarea {
+    display: flex;
+    width: 99%;
+    padding: 10px;
+    margin: 5px;
+    @include anclas;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .botones {
+    background-color: $color-botones;
+    color: $color-principal;
+    @include anclas;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  
+    &:hover {
+      font-size: 25px;
+    }
+  }
+  

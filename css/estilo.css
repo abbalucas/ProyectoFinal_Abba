@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/TazaDeCafe.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+header {
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+  border: 5px black solid;
+}
+
+nav ul li {
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  border: 5px black solid;
+  border-radius: 30px;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+  margin: 5px;
+  padding: 3px;
+  cursor: pointer;
+  transition: all 1s;
+}
+nav ul li:hover {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.logoSonrie {
+  width: 150px;
+}
+
+.tituloDePagina {
+  text-align: center;
+  font-size: 60px;
+  margin: 50px;
+  text-decoration-line: underline;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border: 5px black solid;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: rotate(360deg) scale(1.1);
+  
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+footer {
+  margin-top: 5px;
+  border-top: 5px black solid;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+}
+
+h3 {
+  margin: 20px;
+}
+
+.formularioContacto {
+  margin-top: 20px;
+  margin: 10px;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+  border: 5px black solid;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input [type=text], textarea {
+  display: flex;
+  width: 99%;
+  padding: 10px;
+  margin: 5px;
+  border: 5px black solid;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.botones {
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+  color: black;
+  border: 5px black solid;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  transition: all 1s;
+}
+.botones:hover {
+  font-size: 25px;
+}
+
+.parrafoUno {
+  text-align: left;
+  border: 5px black solid;
+  border-radius: 10px;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+  font-size: 20px;
+  margin: 30px;
+}
+
+.slide {
+  display: flex;
+  margin: 10px;
+  height: 61vh;
+  width: 61vh;
+  border: 5px black solid;
+  border-radius: 10px;
+  padding: 15px;
+  background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+}
+.slide img {
+  height: 56vh;
+  width: 56vh;
+  border-radius: 1vh;
+}
+
+/*# sourceMappingURL=estilo.css.map */

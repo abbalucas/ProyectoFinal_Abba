@@ -1,0 +1,23 @@
+.parrafoUno {
+    text-align: left;
+    @include anclas;
+    border-radius: 10px;
+    background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+    font-size: 20px;
+    margin: 30px;
+  }
+  
+  .slide {
+    display: flex;
+    margin: 10px;
+    height: 61vh;
+    width: 61vh;
+    @include anclas;
+    border-radius: 5px;
+  
+    img {
+      height: 60vh;
+      width: 60vh;
+    }
+  }
+  

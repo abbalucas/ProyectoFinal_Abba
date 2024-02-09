@@ -1,0 +1,34 @@
+@mixin anclas {
+  border: 5px black solid;
+}
+
+header {
+    background: linear-gradient(to right top, #E67E22, #EB984E, #F0B27A, #EDBB99);
+    @include anclas;
+  }
+  
+  nav ul li {
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    @include anclas;
+    border-radius: 30px;
+    background-color: $color-botones;
+    margin: 5px;
+    padding: 3px;
+    cursor: pointer;
+  
+    &:hover {
+      font-size: 25px;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-principal;
+  }
+  .logoSonrie {
+    width: 150px;
+}
